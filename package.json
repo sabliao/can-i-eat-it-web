@@ -1,0 +1,29 @@
+{
+  "name": "can-i-eat-it-web",
+  "version": "1.0.0",
+  "description": "## What is this? This is my 2nd project for the [100 Days of Code](https://github.com/Kallaway/100-days-of-code) challenge. I was hiking w/ my friend Vicky one day (I think it might've been one of the more unpleasant ones) when she jokingly said I should create an app called \"Can I Eat It?\" that would allow you to take a picture of e.g. a plant, which the app would then tell you if it's edible or not. I hadn't touched mobile apps since my last job and had no intention of ever going back, so I just laughed it off. While thinking of what I could do for a second project, this idea came back, and I grabbed it because why not try doing a suuper basic version of that on the web (which I have fresher experience w/)? And even if I can't get it to tell you if something's edible or not (I'm banking on there being a publicly accessible database of plants that include their edibility...), I'll at least get to figure out how to bootstrap a web app w/ Reactjs and all those other crazy necessary additions w/o the lead developer at work laying the groundwork for me. :P",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabliao/can-i-eat-it-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabliao/can-i-eat-it-web/issues"
+  },
+  "homepage": "https://github.com/sabliao/can-i-eat-it-web#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
